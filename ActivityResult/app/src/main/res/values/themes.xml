@@ -12,5 +12,23 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+    </style>
+        <!-- Style for page header on launch screen -->
+        <style name="header" parent=
+            "TextAppearance.AppCompat.Title">
+            <item name="android:gravity">center</item>
+            <item name="android:layout_marginStart">24dp</item>
+            <item name="android:layout_marginEnd">24dp</item>
+            <item name="android:layout_marginLeft">24dp</item>
+            <item name="android:layout_marginRight">24dp</item>
+            <item name="android:textSize">20sp</item>
+        </style>
+        <!-- Style for page header on rainbow color
+          selection screen -->
+    <style name="header.rainbows" parent="header">
+        <item name="android:textSize">22sp</item>
+        <item  name="android:textAllCaps">true</item>
+
     </style>
 </resources>
